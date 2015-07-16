@@ -7,14 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FD16667F1B3A0B2B00421357 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD16667E1B3A0B2B00421357 /* AddressBook.framework */; };
+		FD1666811B3A0B4100421357 /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD1666801B3A0B4100421357 /* AddressBookUI.framework */; };
+		FD28D2AB1B389AF10021D540 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD28D2AA1B389AF10021D540 /* MapKit.framework */; };
+		FD60D87E1B3C38AE007555EC /* SensorsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD60D87D1B3C38AE007555EC /* SensorsViewController.m */; };
 		FDCFD4921B3785CA0055CFF9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FDCFD4911B3785CA0055CFF9 /* main.m */; };
 		FDCFD4951B3785CA0055CFF9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FDCFD4941B3785CA0055CFF9 /* AppDelegate.m */; };
-		FDCFD4981B3785CA0055CFF9 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDCFD4971B3785CA0055CFF9 /* FirstViewController.m */; };
-		FDCFD49B1B3785CA0055CFF9 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDCFD49A1B3785CA0055CFF9 /* SecondViewController.m */; };
+		FDCFD49B1B3785CA0055CFF9 /* LocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDCFD49A1B3785CA0055CFF9 /* LocationViewController.m */; };
 		FDCFD49E1B3785CA0055CFF9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDCFD49C1B3785CA0055CFF9 /* Main.storyboard */; };
 		FDCFD4A01B3785CA0055CFF9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDCFD49F1B3785CA0055CFF9 /* Images.xcassets */; };
 		FDCFD4A31B3785CA0055CFF9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FDCFD4A11B3785CA0055CFF9 /* LaunchScreen.xib */; };
 		FDCFD4AF1B3785CA0055CFF9 /* manantha_iOS_Sensors_LocationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FDCFD4AE1B3785CA0055CFF9 /* manantha_iOS_Sensors_LocationTests.m */; };
+		FDCFD4B91B3785E70055CFF9 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDCFD4B81B3785E70055CFF9 /* CoreLocation.framework */; };
+		FDCFD4BB1B3785ED0055CFF9 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDCFD4BA1B3785ED0055CFF9 /* CoreMotion.framework */; };
+		FDCFD4BD1B3786050055CFF9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDCFD4BC1B3786050055CFF9 /* UIKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,21 +34,27 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FD16667E1B3A0B2B00421357 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		FD1666801B3A0B4100421357 /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
+		FD28D2AA1B389AF10021D540 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		FD60D87D1B3C38AE007555EC /* SensorsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SensorsViewController.m; sourceTree = "<group>"; };
 		FDCFD48C1B3785CA0055CFF9 /* manantha_iOS_Sensors_Location.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = manantha_iOS_Sensors_Location.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDCFD4901B3785CA0055CFF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FDCFD4911B3785CA0055CFF9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FDCFD4931B3785CA0055CFF9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FDCFD4941B3785CA0055CFF9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		FDCFD4961B3785CA0055CFF9 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		FDCFD4971B3785CA0055CFF9 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		FDCFD4991B3785CA0055CFF9 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		FDCFD49A1B3785CA0055CFF9 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		FDCFD4961B3785CA0055CFF9 /* SensorsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SensorsViewController.h; sourceTree = "<group>"; };
+		FDCFD4991B3785CA0055CFF9 /* LocationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LocationViewController.h; sourceTree = "<group>"; };
+		FDCFD49A1B3785CA0055CFF9 /* LocationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LocationViewController.m; sourceTree = "<group>"; };
 		FDCFD49D1B3785CA0055CFF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FDCFD49F1B3785CA0055CFF9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		FDCFD4A21B3785CA0055CFF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		FDCFD4A81B3785CA0055CFF9 /* manantha_iOS_Sensors_LocationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = manantha_iOS_Sensors_LocationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDCFD4AD1B3785CA0055CFF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FDCFD4AE1B3785CA0055CFF9 /* manantha_iOS_Sensors_LocationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = manantha_iOS_Sensors_LocationTests.m; sourceTree = "<group>"; };
+		FDCFD4B81B3785E70055CFF9 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		FDCFD4BA1B3785ED0055CFF9 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		FDCFD4BC1B3786050055CFF9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +62,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD1666811B3A0B4100421357 /* AddressBookUI.framework in Frameworks */,
+				FD16667F1B3A0B2B00421357 /* AddressBook.framework in Frameworks */,
+				FD28D2AB1B389AF10021D540 /* MapKit.framework in Frameworks */,
+				FDCFD4BD1B3786050055CFF9 /* UIKit.framework in Frameworks */,
+				FDCFD4BB1B3785ED0055CFF9 /* CoreMotion.framework in Frameworks */,
+				FDCFD4B91B3785E70055CFF9 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +84,12 @@
 		FDCFD4831B3785CA0055CFF9 = {
 			isa = PBXGroup;
 			children = (
+				FD1666801B3A0B4100421357 /* AddressBookUI.framework */,
+				FD16667E1B3A0B2B00421357 /* AddressBook.framework */,
+				FD28D2AA1B389AF10021D540 /* MapKit.framework */,
+				FDCFD4BC1B3786050055CFF9 /* UIKit.framework */,
+				FDCFD4BA1B3785ED0055CFF9 /* CoreMotion.framework */,
+				FDCFD4B81B3785E70055CFF9 /* CoreLocation.framework */,
 				FDCFD48E1B3785CA0055CFF9 /* manantha_iOS_Sensors_Location */,
 				FDCFD4AB1B3785CA0055CFF9 /* manantha_iOS_Sensors_LocationTests */,
 				FDCFD48D1B3785CA0055CFF9 /* Products */,
@@ -86,10 +110,10 @@
 			children = (
 				FDCFD4931B3785CA0055CFF9 /* AppDelegate.h */,
 				FDCFD4941B3785CA0055CFF9 /* AppDelegate.m */,
-				FDCFD4961B3785CA0055CFF9 /* FirstViewController.h */,
-				FDCFD4971B3785CA0055CFF9 /* FirstViewController.m */,
-				FDCFD4991B3785CA0055CFF9 /* SecondViewController.h */,
-				FDCFD49A1B3785CA0055CFF9 /* SecondViewController.m */,
+				FDCFD4961B3785CA0055CFF9 /* SensorsViewController.h */,
+				FD60D87D1B3C38AE007555EC /* SensorsViewController.m */,
+				FDCFD4991B3785CA0055CFF9 /* LocationViewController.h */,
+				FDCFD49A1B3785CA0055CFF9 /* LocationViewController.m */,
 				FDCFD49C1B3785CA0055CFF9 /* Main.storyboard */,
 				FDCFD49F1B3785CA0055CFF9 /* Images.xcassets */,
 				FDCFD4A11B3785CA0055CFF9 /* LaunchScreen.xib */,
@@ -173,6 +197,7 @@
 				TargetAttributes = {
 					FDCFD48B1B3785CA0055CFF9 = {
 						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = 9VUC3R8D65;
 					};
 					FDCFD4A71B3785CA0055CFF9 = {
 						CreatedOnToolsVersion = 6.2;
@@ -224,9 +249,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FDCFD49B1B3785CA0055CFF9 /* SecondViewController.m in Sources */,
+				FDCFD49B1B3785CA0055CFF9 /* LocationViewController.m in Sources */,
 				FDCFD4951B3785CA0055CFF9 /* AppDelegate.m in Sources */,
-				FDCFD4981B3785CA0055CFF9 /* FirstViewController.m in Sources */,
+				FD60D87E1B3C38AE007555EC /* SensorsViewController.m in Sources */,
 				FDCFD4921B3785CA0055CFF9 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -340,6 +365,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -349,6 +375,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = manantha_iOS_Sensors_Location/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -359,6 +386,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = manantha_iOS_Sensors_Location/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -418,6 +446,7 @@
 				FDCFD4B41B3785CA0055CFF9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FDCFD4B51B3785CA0055CFF9 /* Build configuration list for PBXNativeTarget "manantha_iOS_Sensors_LocationTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +455,7 @@
 				FDCFD4B71B3785CA0055CFF9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
